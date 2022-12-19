@@ -1,8 +1,16 @@
 # Автоматическое тестировние для раскрашивания логотипа.
 from unittest import TestCase
-import Solution.DetermineNameColor as determine_name_color
+import Solution.DetermineNameColor as detMistakes
 
-# Algorithms and Data Structures
-# BBBBBBBBBB BYB YYYY BBBBBBBBBB
+
 class TestDetermineColoring(TestCase):
-    pass
+    def test_determine_coloring_mistakes(self):
+        self.assertEqual(0, detMistakes.determine_coloring_mistakes(
+            7,
+            "Tinkoff",
+            "BYBYBYB"))
+
+        self.assertEqual(3, detMistakes.determine_coloring_mistakes(
+            27,
+            "Algorithms and Data Structures",
+            "BBBBBBBBBBBYBYYYYBBBBBBBBBB"))

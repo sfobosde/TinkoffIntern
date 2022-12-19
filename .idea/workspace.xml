@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c215ba82-04b2-46e5-8807-bc69909e69d1" name="Changes" comment="Add tests">
+    <list default="true" id="c215ba82-04b2-46e5-8807-bc69909e69d1" name="Changes" comment="Add test case class">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Solution/DetermineNameColor.py" beforeDir="false" afterPath="$PROJECT_DIR$/Solution/DetermineNameColor.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Solution/Tests/DetermineColorTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/Solution/Tests/DetermineColorTest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solution/Tests/DetermineNameColoringTestCaseClass.py" beforeDir="false" afterPath="$PROJECT_DIR$/Solution/Tests/DetermineNameColoringTestCaseClass.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +72,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671479256151</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add test case class">
+      <created>1671480212574</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1671480212574</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -89,6 +97,7 @@
     <MESSAGE value="Add venv" />
     <MESSAGE value="refactor" />
     <MESSAGE value="Add tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add tests" />
+    <MESSAGE value="Add test case class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add test case class" />
   </component>
 </project>

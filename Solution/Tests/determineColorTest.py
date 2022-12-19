@@ -4,5 +4,5 @@ from unittest import TestCase
 
 # Algorithms and Data Structures
 # BBBBBBBBBB BYB YYYY BBBBBBBBBB
-class determineColorTest(TestCase):
+class DetermineColoringTest(TestCase):
     pass

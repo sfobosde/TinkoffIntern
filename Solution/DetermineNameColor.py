@@ -27,7 +27,14 @@ def input_data():
     return symbol_count, department_name, coloring_idea
 
 
-def determine_coloring_mistakes(symbol_count: int, department_name: str, coloring_idea: str):
+# Проверка на корректность введенных данных.
+def is_data_valid(symbol_count: int, department_name_words: [], coloring_idea: str) -> bool:
+    return (symbol_count > 0
+            & len(department_name_words) > 0
+            & len(coloring_idea) == symbol_count)
+
+
+def determine_coloring_mistakes(symbol_count: int, department_name: str, coloring_idea: str) -> int:
     pass
 
 

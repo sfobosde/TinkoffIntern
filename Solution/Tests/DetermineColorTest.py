@@ -9,10 +9,13 @@ class TestDetermineColoring(TestCase):
     test_data = [TestCaseClass(7, "Tinkoff", "BYBYBYB", 0),
                  TestCaseClass(27, "Algorithms and Data Structures", "BBBBBBBBBBBYBYYYYBBBBBBBBBB", 3)]
 
-    def test_split(self):
+    # Тест не должен проходить.
+    def test_create_coloring_schema_exceptions(self):
         with self.assertRaises(Exception):
             for test_case in self.test_data:
-                test_case.name.split('a')
+                detMistakes.create_coloring_schema(
+                    test_case.name,
+                    test_case.coloring)
 
     def test_determine_coloring_mistakes(self):
         for test_case in self.test_data:

@@ -28,6 +28,7 @@ def input_data():
 
     return symbol_count, department_name, coloring_idea
 
+# Создание схемы раскраски слово:схема.
 def create_coloring_schema(department_name: str, coloring_idea: str) -> []:
     # Разбитие названия на отдельные слова.
     words = department_name.split(' ')
@@ -50,11 +51,12 @@ def determine_coloring_mistakes(symbol_count: int, department_name: str, colorin
 
     coloring_schemas = create_coloring_schema(department_name, coloring_idea)
 
-    for coloring_chema in coloring_schemas:
-        if (coloring_chema.coloring.find("BB") > -1) \
-                or (coloring_chema.coloring.find("YY") > -1):
+    for coloring_schema in coloring_schemas:
+        if (coloring_schema.coloring.find("BB") > -1) \
+                or (coloring_schema.coloring.find("YY") > -1):
             mistakes_count += 1
     return mistakes_count
+
 
 symbol_count: int
 text: str

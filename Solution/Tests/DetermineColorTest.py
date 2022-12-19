@@ -2,7 +2,7 @@
 from unittest import TestCase
 import Solution.DetermineNameColor as detMistakes
 from Solution.Tests.DetermineNameColoringTestCaseClass import DetermineNameColoringClass as TestCaseClass
-import Solution.DetermineNameColor as detMistakes
+
 
 class TestDetermineColoring(TestCase):
     # Тест кейсы.

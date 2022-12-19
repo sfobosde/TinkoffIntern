@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c215ba82-04b2-46e5-8807-bc69909e69d1" name="Changes" comment="Resolve determinating coloring mistakes">
+    <list default="true" id="c215ba82-04b2-46e5-8807-bc69909e69d1" name="Changes" comment="Add user interfacing">
       <change beforePath="$PROJECT_DIR$/Solution/DetermineNameColor.py" beforeDir="false" afterPath="$PROJECT_DIR$/Solution/DetermineNameColor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solution/Tests/DetermineColorTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/Solution/Tests/DetermineColorTest.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671484659263</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Add user interfacing">
+      <created>1671484914938</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1671484914938</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -119,6 +127,7 @@
     <MESSAGE value="Refactor test" />
     <MESSAGE value="Resolve creating coloring schema" />
     <MESSAGE value="Resolve determinating coloring mistakes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Resolve determinating coloring mistakes" />
+    <MESSAGE value="Add user interfacing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add user interfacing" />
   </component>
 </project>

@@ -17,7 +17,7 @@ def input_data():
         symbol_count = int(input("Введите количество букв в названии отдела:"))
     except ValueError:
         print("Необходимо ввести число.")
-        raise Exception("Ошибка вводимых данных")
+        raise Exception("Ошибка вводимых данных, надо вводить целые числа")
     except TypeError:
         print("Необходимо ввести целое число.")
         raise Exception("Ошибка вводимых данных")
@@ -44,5 +44,15 @@ def create_coloring_schema(department_name: str, coloring_idea: str) -> []:
     return coloring_schema
 
 
+# Поиск ошибок в раскраске.
 def determine_coloring_mistakes(symbol_count: int, department_name: str, coloring_idea: str) -> int:
-    pass
+    mistakes_count: int = 0
+
+    coloring_schemas = create_coloring_schema(department_name, coloring_idea)
+
+    for coloring_chema in coloring_schemas:
+        if (coloring_chema.coloring.find("BB") > -1) or (coloring_chema.coloring.find("YY") > -1):
+            mistakes_count += 1
+    return mistakes_count
+
+print(determine_coloring_mistakes(7, "Tinkoff", "BYBYBYB"))

@@ -51,8 +51,14 @@ def determine_coloring_mistakes(symbol_count: int, department_name: str, colorin
     coloring_schemas = create_coloring_schema(department_name, coloring_idea)
 
     for coloring_chema in coloring_schemas:
-        if (coloring_chema.coloring.find("BB") > -1) or (coloring_chema.coloring.find("YY") > -1):
+        if (coloring_chema.coloring.find("BB") > -1) \
+                or (coloring_chema.coloring.find("YY") > -1):
             mistakes_count += 1
     return mistakes_count
 
-print(determine_coloring_mistakes(7, "Tinkoff", "BYBYBYB"))
+symbol_count: int
+text: str
+coloring: str
+
+symbol_count, text, coloring = input_data()
+print(determine_coloring_mistakes(symbol_count, text, coloring))

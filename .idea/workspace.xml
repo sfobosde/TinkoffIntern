@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c215ba82-04b2-46e5-8807-bc69909e69d1" name="Changes" comment="resolve option calc">
+      <change afterPath="$PROJECT_DIR$/Solution/Tests/mathLotteryTest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Solution/mathLotary.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Solution/Entities/Currency.py" beforeDir="false" afterPath="$PROJECT_DIR$/Solution/Entities/Currency.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
